@@ -1,0 +1,60 @@
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPConnection/bin/Release/MAPConnection.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPConnection/bin/Release/MAPConnection.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPConnection/obj/Release/MAPConnection.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPConnection/obj/Release/MAPConnection.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPConnection/bin/Release/MAPConnection.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPConnection/bin/Release/MAPConnection.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPConnection/obj/Release/MAPConnection.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPConnection/obj/Release/MAPConnection.pdb
+C:/Users/acme/Desktop/WasteManagement/MAPConnection/bin/Release/MAPConnection.dll
+C:/Users/acme/Desktop/WasteManagement/MAPConnection/bin/Release/MAPConnection.pdb
+C:/Users/acme/Desktop/WasteManagement/MAPConnection/obj/Release/MAPConnection.dll
+C:/Users/acme/Desktop/WasteManagement/MAPConnection/obj/Release/MAPConnection.pdb
+D:/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+D:/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+D:/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+D:/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+D:/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+D:/New folder/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+D:/New folder/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+D:/New folder/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+D:/New folder/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+D:/New folder/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+D:/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+D:/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+D:/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+D:/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+D:/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csproj.CoreCompileInputs.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csproj.CoreCompileInputs.cache
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/bin/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csprojResolveAssemblyReference.cache
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.csproj.CoreCompileInputs.cache
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPConnection/obj/Release/MAPConnection.pdb

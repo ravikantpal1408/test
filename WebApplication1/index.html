@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <apex:page  contentType="application/json">
+
+    <title>
+
+</title>
+   <style>
+        #bincontainer{
+            width: 96px;
+            padding:0;
+            
+        }
+        #mainbin {
+            background-image: url("map_img/2.png");
+            height:130px;
+            width:96px;
+            background-repeat:no-repeat;
+            position: absolute;
+            z-index:99;
+            
+        }
+        #filledspace{
+           
+            width:90px;
+            height: 90px;
+        }
+        #emptyspace{
+            background-color:white;
+            
+            width:90px;
+            position: absolute;
+        }
+        #bintop
+        {
+            height: 35px;
+            width: 38%;
+            padding-top: 15px;
+            margin: 0 auto;
+            text-align:center;
+        }
+        .bintext
+        {
+            font-size: 10px;
+            color: cornflowerblue;
+        }
+    </style>
+    
+</head>
+<body>
+    <form name="form1" method="post" action="binPictorialView.aspx?binid=1035&amp;areaid=12" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjc2NTI1MTI0D2QWAgIDD2QWBgIDD2QWAgIBDw8WAh4EVGV4dAUDMzIlZGQCBQ8WAh4Fc3R5bGUFDGhlaWdodDo2MHB4O2QCBw8WAh8BBRliYWNrZ3JvdW5kLWNvbG9yOiNDRERDMzk7ZGTkxod6P76HmhquhLHaM/2hl52CkDaPU12eeOnl2mp6tw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB15B3AD" />
+</div>
+  <div id="bincontainer">
+        <div id="mainbin"></div>
+        <div id="bintop">
+            <span id="lbl_binPercent" class="bintext">32%</span>
+        </div>
+        <div id="emptyspace" style="height:60px;"></div>
+        <div id="filledspace" style="background-color:#CDDC39;"></div>   
+    </div>
+    </form>
+</body>
+</html>

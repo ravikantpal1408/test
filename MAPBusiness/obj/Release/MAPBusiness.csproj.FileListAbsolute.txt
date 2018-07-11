@@ -1,0 +1,87 @@
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/bin/Release/MAPConnection.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/bin/Release/MAPConnection.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/bin/Release/MAPConnection.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/bin/Release/MAPConnection.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.pdb
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.dll
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/bin/Release/MAPBusiness.pdb
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/bin/Release/MAPConnection.dll
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/bin/Release/MAPConnection.pdb
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.dll
+C:/Users/acme/Desktop/WasteManagement/MAPBusiness/obj/Release/MAPBusiness.pdb
+D:/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+D:/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+D:/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+D:/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+D:/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+D:/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+D:/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+D:/New folder/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+D:/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csproj.CoreCompileInputs.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csproj.CoreCompileInputs.cache
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+/Users/ravikantpal/Documents/Projects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.dll
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPBusiness.pdb
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.dll
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/bin/Release/MAPConnection.pdb
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csprojResolveAssemblyReference.cache
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.csproj.CoreCompileInputs.cache
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.dll
+/Users/ravikantpal/Documents/MyProjects/TATA/WasteManagement_18-07-2017/MAPBusiness/obj/Release/MAPBusiness.pdb

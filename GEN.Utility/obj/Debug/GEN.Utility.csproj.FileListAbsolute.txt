@@ -1,0 +1,30 @@
+C:/Users/acme/Desktop/WasteManagement/GEN.Utility/bin/Debug/GEN.Utility.dll
+C:/Users/acme/Desktop/WasteManagement/GEN.Utility/bin/Debug/GEN.Utility.pdb
+C:/Users/acme/Desktop/WasteManagement/GEN.Utility/obj/Debug/GEN.Utility.csprojResolveAssemblyReference.cache
+C:/Users/acme/Desktop/WasteManagement/GEN.Utility/obj/Debug/GEN.Utility.dll
+C:/Users/acme/Desktop/WasteManagement/GEN.Utility/obj/Debug/GEN.Utility.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/GEN.Utility/bin/Debug/GEN.Utility.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/GEN.Utility/bin/Debug/GEN.Utility.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/GEN.Utility/obj/Debug/GEN.Utility.csprojResolveAssemblyReference.cache
+E:/Gajendra Singh/WasteManagement13-07-2017/GEN.Utility/obj/Debug/GEN.Utility.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/GEN.Utility/obj/Debug/GEN.Utility.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.pdb
+D:/TATA/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.dll
+D:/TATA/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.pdb
+D:/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.csprojResolveAssemblyReference.cache
+D:/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.dll
+D:/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/GEN.Utility/bin/Debug/GEN.Utility.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.csproj.CoreCompileInputs.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/GEN.Utility/obj/Debug/GEN.Utility.pdb

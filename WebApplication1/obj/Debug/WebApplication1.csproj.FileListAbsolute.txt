@@ -1,0 +1,162 @@
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/WebApplication1.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/WebApplication1.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/MAPBusiness.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/MAPConnection.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/MAPBusiness.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/bin/MAPConnection.pdb
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/obj/Debug/WebApplication1.dll
+C:/Users/acme/Desktop/My File upload/WasteManagement/WebApplication1/obj/Debug/WebApplication1.pdb
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/WebApplication1.dll
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/WebApplication1.pdb
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/MAPBusiness.dll
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/MAPConnection.dll
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/MAPBusiness.pdb
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/bin/MAPConnection.pdb
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/obj/Debug/WebApplication1.dll
+C:/Users/acme 1/Desktop/Dubey Garima/Local Disk D/Garima/Latest Solutions  (June)/WasteManagement/WebApplication1/obj/Debug/WebApplication1.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/WebApplication1.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/WebApplication1.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/MAPBusiness.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/MAPConnection.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/MAPBusiness.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/bin/MAPConnection.pdb
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Ravi_backUP/New_waste_mgmnt/WasteManagement/WebApplication1/obj/Debug/WebApplication1.pdb
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/WebApplication1.dll
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/WebApplication1.pdb
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/MAPBusiness.dll
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/MAPConnection.dll
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/MAPBusiness.pdb
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/MAPConnection.pdb
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/obj/Debug/WebApplication1.dll
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/obj/Debug/WebApplication1.pdb
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/GEN.Utility.dll
+C:/Users/acme/Desktop/WasteManagement/WebApplication1/bin/GEN.Utility.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/WebApplication1.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/WebApplication1.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/GEN.Utility.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/MAPBusiness.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/MAPConnection.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/GEN.Utility.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/MAPBusiness.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/MAPConnection.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+E:/Gajendra Singh/WasteManagement13-07-2017/WebApplication1/bin/AjaxControlToolkit.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/WebApplication1.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/WebApplication1.pdb
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/AjaxControlToolkit.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/GEN.Utility.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/MAPBusiness.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/MAPConnection.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/GEN.Utility.pdb
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/MAPBusiness.pdb
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/bin/MAPConnection.pdb
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Gajendra Singh/WasteManagement17-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+D:/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+D:/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+D:/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+D:/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+D:/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+D:/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+D:/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+D:/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+D:/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+D:/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Ravi_backUP/24-07-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+D:/New folder/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Ravi_backUP/26-07-2017 eve/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+D:/LATEST_IOT/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+E:/Ravi_backUP/08-08-2017/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+D:/LATEST_IOT_ravi/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb
+D:/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/WebApplication1.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/GEN.Utility.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPBusiness.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/bin/MAPConnection.pdb
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csprojResolveAssemblyReference.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.csproj.CoreCompileInputs.cache
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.dll
+/Users/ravipal/Documents/Projects/TATA/WasteManagement_18-07-2017/WebApplication1/obj/Debug/WebApplication1.pdb

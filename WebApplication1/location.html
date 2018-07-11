@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>New Market</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  
+       
+ 
+      <script src="dist1/sweetalert-dev.js"></script>
+
+      <link href="dist1/sweetalert.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <script src="js/js.cookie.js"></script>
+  </head>
+  <body>
+          <script async defer
+    src="https://maps.googleapis.com/maps/api/js?&libraries=places&key=AIzaSyCdgFX6FTu1VhDhiUhW5TIANBSrlGvjIzs">
+    </script>
+    <div id="map"></div>
+    <script type="text/javascript">
+
+        window.onload = function () {
+
+
+            initialize();
+
+        }
+
+                  
+
+        function initialize() {
+
+
+
+
+            
+           
+            var markers;
+        
+            var j = 0;  
+
+             $.ajax({
+                type: 'POST',
+                url: 'car.asmx/init_get_car',
+                data: "{ }",
+                contentType: 'application/json; charset=utf-8',
+                dataType: 'json',
+                success: function (data) {
+                  
+                       // alert(JSON.stringify(data));
+                        markers = data.d;
+                        //alert(data.d);
+               
+
+                    var mapOptions = {
+                        center: new google.maps.LatLng(23.235846, 77.3980373),
+                        zoom: 17,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+
+                        // marker:true
+                    };
+
+
+                    var infoWindow = new google.maps.InfoWindow();
+                    var latlngbounds = new google.maps.LatLngBounds();
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                    var i = 0;
+                    var m = 0;
+
+                    google.maps.event.addListener(map, 'click', function (event) {
+                       var latitude = event.latLng.lat();
+                       var longitude = event.latLng.lng();
+
+
+
+
+                        //alert(lat)
+
+                       swal({
+                           title: "Note",
+                           text: "This location will be set as your DROP point!",
+                           type: "warning",
+                           showCancelButton: true,
+                           confirmButtonColor: "#DD6B55",
+                           confirmButtonText: "Yes,Do you Want!!",
+                           closeOnConfirm: false
+                       },
+                    function () {
+                        var conf="confirmed";
+         
+                        if (conf == "confirmed") {
+
+
+                            $.ajax({
+                                type: 'POST',
+                                url: 'car.asmx/fn_get_car',
+                                data: "{ 'lat' : '" + latitude + "','lon':'" + longitude + "'}",
+                                contentType: 'application/json; charset=utf-8',
+                                dataType: 'json',
+                                success: function (data) {
+
+
+
+                                    $.cookie("test", 1, {
+
+
+
+                                    });
+                                    var ck_val = $.cookie("test");
+                                    alert(ck_val)
+                                   // alert("success")
+                                    initialize();
+
+
+                                }
+                            });
+
+                            swal("Please Wait!", "This location will be set your drop point!", "success");
+
+
+
+                        }
+                        else {
+
+
+
+
+                        }
+                    }
+
+                    );
+
+
+
+                    });
+
+
+
+                    var interval = setInterval(function () {
+                        var data = markers[i];
+
+                   
+                 
+                            var myLatlng = new google.maps.LatLng(data.lat, data.lon);
+
+                       
+
+                        // alert(JSON.stringify(markers));
+
+
+                            //alert(data.type)
+                            if (data.type == 'D') {
+                                icon = '';
+
+                            } else {
+
+                                icon = "img/car1.png";
+                            }
+                        // var t=markers[i][i];            
+
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            //title: data.AreaName,
+                           // Type: data.Bin_Type,
+                            animation: google.maps.Animation.DROP,
+                            icon: new google.maps.MarkerImage(icon)
+                        });
+
+                        (function (marker, data) {
+                       
+                            google.maps.event.addListener(marker, "click", function () {
+                                infoWindow.setContent("<div style='width:100px'><b>Click TO Delete</b></br><a id='remove'  style='color:black' onclick='del();'><i class='fa fa-trash-o' aria-hidden='true' style='font-size:30px;'></i></a></div>");
+                                infoWindow.open(map, marker);
+
+                          
+                                    $(function () {
+
+                                        $('#remove').click(function () {
+
+
+
+                                            var latitude = data.lat;
+                                            var longitude = data.lon;
+                                            // alert(latitude)
+
+                          
+
+
+                                            $.ajax({
+                                                type: 'POST',
+                                                url: 'car.asmx/remove_car',
+                                                data: "{ 'lat' : '" + latitude + "','lon':'" + longitude + "'}",
+                                                contentType: 'application/json; charset=utf-8',
+                                                dataType: 'json',
+                                                success: function (data) {
+                                                    // alert(data.d);
+                                                    initialize();
+                                                }
+                                            });
+
+                                        });
+
+                                    });
+                            
+
+
+
+
+                                     });
+
+
+
+
+
+
+
+                        })(marker, data);
+
+                        latlngbounds.extend(marker.position);
+                        //alert(latlngbounds)
+                        //alert(markers.length)
+                        i++;
+                        if (i == markers.length) {
+                            clearInterval(interval);
+                            var bounds = new google.maps.LatLngBounds();
+                            map.setCenter(latlngbounds.getCenter());
+                            //map.fitBounds(latlngbounds);
+
+                        }
+
+                    
+
+
+                    }, 80);
+
+
+
+                }
+
+              
+             });
+
+
+        
+
+        }
+
+
+      
+
+
+
+        </script>
+
+
+ 
+
+
+  </body>
+</html>

@@ -1,0 +1,608 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="Waste_Mgmnt.master.cs" Inherits="WebApplication1.Master.Waste_Mgmnt" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+
+
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <link href="~/tcal.css" rel="stylesheet" />
+	<link href="tcal.css" rel="stylesheet" />  
+    <link rel="stylesheet" type="text/css" href="tcal.css" />
+	<script type="text/javascript" src="tcal.js"></script>  
+    <link rel="stylesheet" href="css/datepicker.css"/>
+    <link href="~/vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Custom%20CSS/Custom.css" rel="stylesheet" />
+    <link href="~/Custom%20CSS/map.css" rel="stylesheet" />
+    <link href="~/vendor/morrisjs/morris.css" rel="stylesheet" />
+    <link href="~/vendor/metisMenu/metisMenu.css" rel="stylesheet" />
+    <link href="~/vendor/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/dist/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="~/dist/css/sb-admin-2.css" rel="stylesheet" />
+    <link href="~/Custom%20CSS/toggle.css" rel="stylesheet" />
+    
+    
+
+
+    <style type="text/css">
+
+        li>a.hover
+        {
+            background-color:#cb2326;
+
+        }
+        a:hover
+        {
+            color:#fff;
+
+        }
+        .nav > li > a:hover 
+        {
+            background-color:#a3b745;
+        }
+    </style>
+    <style type ="text/css">
+            .sidebar ul li a.active
+            {
+                background-color: #523f6d;
+            }
+
+    </style>
+    <style type ="text/css">
+        .nav > li > a:focus
+         {
+            text-decoration: none;
+            background-color: #cb4b40;
+         }
+
+    </style>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</asp:ContentPlaceHolder>
+     
+</head>
+<body style="background-color:#523f6d">
+     
+    <script type="text/javascript">
+        
+
+        $('a').hover(function () {
+            $(this).parent().toggleClass('hover');
+        });
+    </script>
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0;background-color:#523f6d">
+             <a class="navbar-brand" data-toggle="nav_123" id="A1" href="#">
+                  <div class="navbar-header" id="Div2" >
+            <span style="font-size:30px;cursor:pointer;color:#ffffff" onclick="myFunction()">&#9776; MAIN DASHBOARD</span>
+                         <script type="text/javascript">
+                             function myFunction() {
+                                 var x = document.getElementById("nav_123");
+                                 var y = document.getElementById("page-wrapper");
+                                 if (x.style.display === "none") {
+                                     y.style.marginLeft = "20%";
+                                     x.style.display = "block";
+
+                                 } else {
+                                     x.style.display = "none";
+                                     y.style.marginLeft = "0%";
+                                 }
+                             }
+                          
+                         </script> 
+     
+           </div>
+              
+                 </a>
+        <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw" runat="server" ></i> User Profile</a></li>
+                 
+                        <li class="divider"></li>
+                        <li><asp:LinkButton ID="lg_out" runat="server" OnClick="lg_out_Click"><i class="fa fa-sign-out fa-fw"></i> Logout</asp:LinkButton>
+                      
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+            </ul>
+
+
+        <div class="navbar-default sidebar" id="nav_123" style="background-color:#523f6d" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav in" id="side-menu">
+                        <li class="sidebar-search" style="background-color:#523f6d">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search..." />
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li style="background-color:#523f6d">
+                            <a href="Home_page.aspx" class="active"><i style="background-color:#523f6d" class="fa fa-dashboard fa-fw"></i><label style="color:orange">MAIN</label> </a>
+                        </li>
+                     <%if (Session["type"] != null)
+                    {%>    
+                  <%if (Session["type"].ToString() == "A")
+                    {%>      
+                        <li >
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-user fa-fw"></i>DashBoard<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="Bin_map_new.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Bins/ Feeder Points/ Processing Units</a>
+                                </li>
+                                <li>
+                                </li>
+                                 
+                                 <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Real Time Status</a>
+                                </li>
+
+                                 <li>
+                                    <a href="masterview.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">View Master</a>
+                                </li>
+                                      <li>
+                                    <a href="bin-sensor-policy.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Bin Sensor Policy</a>
+                                </li>
+
+                                            <li>
+                                    <a href="health_check.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Health Check</a>
+                                </li>
+
+
+                               <li>
+                                    <a href="pre_defined_routes.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Pre-Defined Routes</a>
+                                </li>
+                             
+                        
+
+                            </ul>
+                            
+                        </li>
+                      
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-table fa-fw"></i> Route Planner<span class="fa arrow"></span></a>
+                               <ul class="nav nav-second-level collapse">
+                       
+                                <li>
+                                    <a href="plan_collection.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Plan Schedule</a>
+                                </li>
+                                <li>
+
+
+                                    <a href="AllotVehicle.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Allocate Vehicle & Driver</a>
+                                </li>
+                                <li>
+                                    <a href="frm_reg_drivers.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Driver's Registration</a>
+                                </li>
+                                      <li>
+                                    <a href="DriverList.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">View Driver</a>
+                                </li>
+                            
+
+                            </ul>
+                        </li>
+
+
+                         <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-truck fa-1"></i> VTS<span class="fa arrow"></span></a>
+
+                               <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Fuel Consumption</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Associated RFID</a>
+                                </li>
+                                <li>
+
+
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Driver Details</a>
+                                </li>
+                            
+
+                            </ul>
+
+                             
+                        </li>
+
+
+
+
+
+
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'"" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-edit fa-fw"></i> Garbage Collection<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Allocated Vehicles</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Status Monitoring</a>
+                                </li>
+                               
+                            
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-trash-o"></i> Garbage Disposal<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Disposed Vehicle</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> RealTime Status</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Notifications</a>
+                                </li>
+                             
+                               
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-sitemap fa-fw"></i>Weighing Dashboard<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                    <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Tabular View </a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Map View</a>
+                                </li>
+                           
+                                
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-briefcase"></i> Feild Staff Attendance<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Zone Wise</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Ward Wise</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'" ><i class="fa fa-user"> </i> Contact Person<span class="fa arrow"></span></a>
+                            
+                            <ul class="nav nav-second-level collapse">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Higher Authorities</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Zone Wise </a>
+                                        </li>
+                                   <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Ward Wise </a>
+                                        </li>
+                                   <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Others </a>
+                                        </li>
+                                      
+                              
+                                  </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                         <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-files-o fa-fw"></i> Reports<span class="fa arrow"></span></a>
+
+                            <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-star"></i> Bin Collection<span class="fa arrow"></span></a>
+                                          <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Zone Wise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Ward Wise </a>
+                                        </li>
+                                      
+                              
+                                  </ul>
+                            </li>    
+                            <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Route Planning </a>
+                            </li> 
+                                  <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Garbage Collection  </a>
+                            </li>
+                                   <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Garbage Disposal  </a>
+                            </li>
+                                  <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Attendance  </a>
+                            </li>
+                                        <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Vehicle Reports  </a>
+                            </li> 
+
+                             <li>
+                             <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-star"></i> Grievance Reports <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Total Complaints</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Answered </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Un-Answered</a>
+                                        </li>
+                              
+                                        </ul>
+                            </li> 
+                                 
+                                  
+                            
+                            </ul>
+                           
+                        </li>
+                          <% } %>
+                       
+                        <% } %>
+
+                       <% if (Session["type"] != null)
+                          { %>
+
+                        <% if (Session["type"].ToString() == "U")
+                            
+                          
+                          { %>
+                         <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-table fa-fw"></i> Route Planner<span class="fa arrow"></span></a>
+                               <ul class="nav nav-second-level collapse">
+                       
+                                <li>
+                                    <a href="plan_collection.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Plan Schedule</a>
+                                </li>
+                                <li>
+
+
+                                    <a href="AllotVehicle.aspx" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Allocate Vehicle & Driver</a>
+                                </li>
+                            
+
+                            </ul>
+                        </li>
+
+
+                         <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-truck fa-1"></i> VTS<span class="fa arrow"></span></a>
+
+                               <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Fuel Consumption</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Associated RFID</a>
+                                </li>
+                                <li>
+
+
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Driver Details</a>
+                                </li>
+                            
+
+                            </ul>
+
+                             
+                        </li>
+
+
+
+
+
+
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'"" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-edit fa-fw"></i> Garbage Collection<span class="fa arrow"></span></a>
+                             <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Allocated Vehicles</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Status Monitoring</a>
+                                </li>
+                               
+                            
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-trash-o"></i> Garbage Disposal<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Disposed Vehicle</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> RealTime Status</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Notifications</a>
+                                </li>
+                             
+                               
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-sitemap fa-fw"></i>Weighing Dashboard<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                    <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Tabular View </a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Map View</a>
+                                </li>
+                           
+                                
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-briefcase"></i> Feild Staff Attendance<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Zone Wise</a>
+                                </li>
+                                <li>
+                                    <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Ward Wise</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'" ><i class="fa fa-user"> </i> Contact Person<span class="fa arrow"></span></a>
+                            
+                            <ul class="nav nav-second-level collapse">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Higher Authorities</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Zone Wise </a>
+                                        </li>
+                                   <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Ward Wise </a>
+                                        </li>
+                                   <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Others </a>
+                                        </li>
+                                      
+                              
+                                  </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                         <li>
+                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-files-o fa-fw"></i> Reports<span class="fa arrow"></span></a>
+
+                            <ul class="nav nav-second-level collapse">
+                            <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-star"></i> Bin Collection<span class="fa arrow"></span></a>
+                                          <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Zone Wise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Ward Wise </a>
+                                        </li>
+                                      
+                              
+                                  </ul>
+                            </li>    
+                            <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Route Planning </a>
+                            </li> 
+                                  <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Garbage Collection  </a>
+                            </li>
+                                   <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Garbage Disposal  </a>
+                            </li>
+                                  <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Attendance  </a>
+                            </li>
+                                        <li>
+                                <a href ="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"> Vehicle Reports  </a>
+                            </li> 
+
+                             <li>
+                             <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'"><i class="fa fa-star"></i> Grievance Reports <span class="fa arrow"></span></a>
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Total Complaints</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Answered </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  onMouseOver="this.style.color='#ffffff'" onMouseOut="this.style.color='#ffffff'">Un-Answered</a>
+                                        </li>
+                              
+                                        </ul>
+                            </li> 
+                                 
+                                  
+                            
+                            </ul>
+                           
+                        </li>
+
+                        <% } %>
+                         <% } %>
+                     
+                       <% if (Session["type"] == null)
+                    {
+
+                        Response.Redirect("LoginIOT.aspx");
+                    
+                    }
+                    
+                     %>
+                    </ul>
+                </div>
+               
+            </div>
+
+                   
+        </nav>
+
+    <div id="page-wrapper" >
+        
+           
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+        <div class="row">
+            <div class="col-sm-12">
+            <div style="margin-top:7%;background-color:#feaa2c;color:white; min-height:60px;padding-left:30px;padding-top:25px;">
+            <center> 
+                    <p class="uppercase">Copyright © 2017 - IOT WEB- ACME DIGITEK ,LUCKNOW &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" style="color:gray;">Maintained by: ACME DIGITEK SOLUTIONS (P) LTD</a></p>
+                    <div class="drag">
+                      <i class="up ion-arrow-up-c"></i>
+                    </div>
+            </center>
+                </div>
+                </div>
+    </div>
+
+    
+    <script type="text/javascript" src="tcal.js"></script> 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="vendor/raphael/raphael.js"></script>
+    <script src="vendor/morrisjs/morris.min.js"></script>
+    <script src="data/morris-data.js"></script>
+    <script src="dist/js/sb-admin-2.js"></script>
+    <script src="js/toggle.js"></script>
+</body>
+</html>

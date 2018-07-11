@@ -1,0 +1,84 @@
+﻿
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-heading1 {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.panel-footer1 {
+  padding: 10px 15px;
+  background-color: #5c64a6;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.panel-green > .panel-heading1 {
+    border-color: #5c64a6;
+    color: white;
+    background-color: #5c64a6;
+}
+.panel-blue > .panel-heading12 {
+    border-color: #5c64a6;
+    color: white;
+    background-color: #5c64a6;
+}
+.panel-footer123 {
+    padding: 10px 15px;
+    background-color: #478f50;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-footer124 {
+    padding: 10px 15px;
+    background-color: #5c64a6;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-footer125 {
+    padding: 10px 15px;
+    background-color: #52bfeb;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.panel-footer126 {
+    padding: 10px 15px;
+    background-color: #e89d35;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+
+.map_div{
+    float:right;
+    height:850px;
+    width:450px;
+}
+.checkbox-inline,.radio-inline
+{
+    position:relative;
+    display:inline-block;
+    padding-left:10px;
+    padding-right:196px;
+    margin-bottom:0;
+    font-weight:400;
+    vertical-align:middle;
+    cursor:pointer
+
+}
+.checkbox_bg {
+color:#4084c2;
+}
